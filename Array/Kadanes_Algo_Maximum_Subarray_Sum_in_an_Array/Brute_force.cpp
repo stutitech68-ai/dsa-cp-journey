@@ -32,43 +32,30 @@ int main()
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
-// int max_val=INT_MIN;
-//     // print to verify
-//     // for (int i = 0; i < n; i++)
-//     // {
-//     //     cout << arr[i] << " ";
-//     // }
-//     // cout << '\n';
+ int max_val=INT_MIN;
+     // print to verify
+     // for (int i = 0; i < n; i++)
+     // {
+     //     cout << arr[i] << " ";
+     // }
+     // cout << '\n';
       
-//    for(int i=0;i<n-1;i++)
-//    {
-//     sum=0;
-//     for(int j=i;j<n;j++)
-//     {
-//         sum=sum+arr[j];
-//          max_val=max(max_val,sum);
-//     }    
-//    }
-//  if(n==1)
-// {
-//         cout <<arr[n-1]<<'\n';
-//         exit(0);
-
-// }
-// cout << max_val ;
-// tl:O(N^2)
-long long maxi=LLONG_MIN;
-long long  sum=0;
-for(long long i=0;i<n;i++)
+    for(int i=0;i<n-1;i++)
     {
-        sum=sum+arr[i];
-      
-    if(sum > maxi)
-    maxi = sum;
-
-    if(sum < 0)
-    sum = 0;
+     sum=0;
+     for(int j=i;j<n;j++)
+     {
+         sum=sum+arr[j];
+          max_val=max(max_val,sum);
+     }    
     }
-    cout << maxi;
-// tl:O(N)
+  if(n==1)
+ {
+         cout <<arr[n-1]<<'\n';
+         exit(0);
+
+ }
+ cout << max_val ;
+// tl:O(N^2)
+
 }
