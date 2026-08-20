@@ -38,36 +38,18 @@ int main()
     }
     cout << '\n';
 
-    // SET APPROACH 
-    // for(int i=0;i<n;i++)
-    // {
-    //     st.insert(arr[i]);
-    // }
-    // for(int i=0;i<n;i++)
-    // {
-    //     st.insert(brr[i]);
-    // }
-    // for(auto it : st)
-    // {
-    //     cout << it << ' ';
-    // }
-    // TL: M+N O(M+N)
-     map<int,int> mp;
-
+     //SET APPROACH 
      for(int i=0;i<n;i++)
      {
-        mp[arr[i]]++; // stores element as key 
+         st.insert(arr[i]);
      }
      for(int i=0;i<n;i++)
      {
-        mp[brr[i]]++;
+         st.insert(brr[i]);
      }
-     for(auto it : mp)
+     for(auto it : st)
      {
-         cout << it.first << ' ';
+         cout << it << ' ';
      }
-    
-
-    //TL : M+N(LOG(M+N))
-    return 0;
+     //TL: M+N O(M+N)
 }
