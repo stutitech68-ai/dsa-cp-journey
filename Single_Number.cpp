@@ -28,9 +28,11 @@
 
 // Output:
 
+//DONE USING MULTISET,XOR APPROACH .
+
 // Pick your answer
 // ```
-//   for(auto it : mp) //auto atuomatically takes dara type of data 
+//   for(auto it : mp) //auto atuomatically takes DATATYPE type of data 
 // {
 //     cout << it << " ";
 // }
@@ -61,7 +63,7 @@
 // break;
 // }
 // }
-// cout <\<single; i want to search thru multiset just tell me syntax
+
 #include <bits/stdc++.h>
 using namespace std;
 
