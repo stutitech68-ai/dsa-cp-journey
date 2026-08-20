@@ -1,0 +1,19 @@
+
+// xor approach
+// a ^ a = 0
+// a ^ 0 = a
+// a ^ b = b ^ a       // commutative
+// (a ^ b) ^ c = a ^ (b ^ c)   // associative
+
+// 2. two pointer / sliding window
+
+// 3. If some elements initially satisfy a condition and you can't move forward,
+//    assume a value for the first element, add the condition, then iterate and
+//    process accordingly.
+
+// 4. SET ALSO 
+
+// This file contains notes only — kept as valid C++ comments to avoid
+// compilation errors in C++ projects.
+
+// 5. TO HAVE ACCURATE INPUTS USE min=INT_MIN,max=INT_MAX rather than just 0 as we can have negative no.s too
