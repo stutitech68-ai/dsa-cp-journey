@@ -15,6 +15,7 @@ using namespace std;
 // Input: arr[]=[1,1,1,2,2,3,3,3,3,4,4]
 // Output: [1,2,3,4,_,_,_,_,_,_,_]
 // Explanation: Total number of unique elements are 4, i.e[1,2,3,4] and Therefore return 4 after assigning [1,2,3,4] in the beginning of the array.
+//DONE USING VECTORS ,SETS ,BRUTE FORCE , OPTIMAL APPROACH 
 int main()
 {
     int n;
@@ -27,6 +28,7 @@ int main()
     }
 
     // // print to verify
+    // first approach 
     // // for (int i = 0; i < n; i++) {
     // //     cout << arr[i] << " ";
     // // }
