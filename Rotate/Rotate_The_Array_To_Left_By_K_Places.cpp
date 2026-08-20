@@ -1,8 +1,5 @@
 // Left Rotate Array by K Places
-// Subscribe to TUF+
 
-// Hints
-// Company
 // Given an integer array nums and a non-negative integer k, rotate the array to the left by k steps.
 
 
