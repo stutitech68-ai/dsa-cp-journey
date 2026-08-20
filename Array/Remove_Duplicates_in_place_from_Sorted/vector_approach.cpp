@@ -33,92 +33,40 @@ int main()
     // //     cout << arr[i] << " ";
     // // }
     // // cout << '\n';
-    // int count = 0;
-    // for (int i = 0; i < n; i++)
-    // {
-    //     if (n == 0)
-    //     {
-
-    //         break;
-    //     }
-
-    //     int j = i + 1;
-    //     while (j <= n-1 )
-    //     {
-    //         if (arr[i] == arr[j])
-    //         {
-    //             arr.erase(arr.begin() + j);
-    //                n--;
-    //         }
-    //          else
-    //         {
-              
-    //             break;
-    //         }
-              
-    //     }
-    // }
-
-    // cout << "unique elements present are " << '\n';
-
-    // for (int i = 0; i < n; i++)
-    // {
-    //     count = count + 1;
-    //     cout << arr[i] << " ";
-    // }
-    // cout << count << '\n';
-    // // time cpm= O(n^2);
-    
-    //brute force approach 
-    // set <int> st;
-    // int index=0;
-    // for (int i = 0; i < n; i++)
-    // {
-    //     st.insert(arr[i]);
-    // }
-
-    // for(auto it : st)
-    // {
-    //     arr[index]=it;
-    //    cout << arr[index]<<'\n';
-    //     index++;
-    // }
-    // cout << index <<'\n';
-
-    //optiMAL appraoch
+     int count = 0;
      for (int i = 0; i < n; i++)
-      {
+     {
+         if (n == 0)
+         {
+
+             break;
+         }
+
+         int j = i + 1;
+         while (j <= n-1 )
+         {
+             if (arr[i] == arr[j])
+             {
+                 arr.erase(arr.begin() + j);
+                    n--;
+             }
+              else
+             {
+              
+                 break;
+             }
+              
+         }
+     }
+
+     cout << "unique elements present are " << '\n';
+
+     for (int i = 0; i < n; i++)
+     {
+         count = count + 1;
          cout << arr[i] << " ";
      }
-int count = 0;
-
-if (n == 0)
-{
-    return 0;
+     cout << count << '\n';
+    // // time cpm= O(n^2);
 }
-
-int i = 0;
-int j = 1;
-
-while (j < n)
-{
-    if (arr[i] != arr[j])
-    {
-        arr[i + 1] = arr[j];
-        i++;
-    }
-
-    j++;
-}
-
-count = i + 1;
-
-// for (int k = 0; k < count; k++)
-// {
-//     cout << arr[k] << " ";
-// }
-
-cout << "\ncount is " << count;
-
-return 0;
-            }
+    
