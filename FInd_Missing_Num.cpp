@@ -33,6 +33,7 @@
 // Output:
 
 // Pick your answer
+// done using the summation formula and xor approach 
 #include <bits/stdc++.h>
 using namespace std;
 
