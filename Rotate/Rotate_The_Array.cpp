@@ -1,9 +1,5 @@
 
 // Left Rotate Array by One
-// Subscribe to TUF+
-
-// Hints
-// Company
 // Given an integer array nums, rotate the array to the left by one.
 
 
